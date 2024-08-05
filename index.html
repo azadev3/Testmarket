@@ -1,0 +1,3004 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- CONTENT AREA (HOME - FILTER AND RIGHT CONTAINER) -->
+    <main class="n_container-and-filter-area">
+      <div class="n_top-container-area">
+        <aside class="n_left-filter-container">
+          <div class="n_content-filter">
+            <section class="n_filter-and-icon">
+              <div class="n_title-filter">
+                <img src="./assets/images/list-filter.svg" alt="filter-icon" title="Filter" />
+                <span>Filters</span>
+              </div>
+              <div class="n_right-icon">
+                <img src="./assets/images/arrow-left-to-line.svg" alt="right-icon" />
+              </div>
+            </section>
+
+            <section class="n_filter-container-main">
+              <div class="n_search-area">
+                <div class="n_search-input">
+                  <input type="search" title="Search" alt="search" placeholder="Search..." />
+                </div>
+                <div class="n_tag-container">
+                  <div class="n_tag">
+                    <span>Amazon</span>
+                    <img
+                      class="n_removeicon"
+                      src="./assets/images/closeicon.svg"
+                      alt="remove-icon"
+                      title="Remove Tag" />
+                  </div>
+                  <div class="n_tag">
+                    <span>United States</span>
+                    <img
+                      class="n_removeicon"
+                      src="./assets/images/closeicon.svg"
+                      alt="remove-icon"
+                      title="Remove Tag" />
+                  </div>
+                  <div class="n_tag">
+                    <span>Office Products</span>
+                    <img
+                      class="n_removeicon"
+                      src="./assets/images/closeicon.svg"
+                      alt="remove-icon"
+                      title="Remove Tag" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- top category (first) -->
+              <div class="n_top-category-area">
+                <div class="n_category-top-accord" onclick="toggleAccordion()">
+                  <span class="n_left-title">Category</span>
+                  <div class="n_crop-icon">
+                    <img src="./assets/images/open-down.svg" alt="open-down" title="Close" />
+                  </div>
+                </div>
+
+                <div class="n_categories" id="categories">
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/all.svg" alt="all" title="All" />
+                      <span>All</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(170)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/apple.svg" alt="all" title="All" />
+                      <span>Grocery & Food</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(14)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/smartphone-charging.svg" alt="all" title="All" />
+                      <span>Cell Phone & Accessories</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(14)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/lampp.svg" alt="all" title="All" />
+                      <span>Home Improvement</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(13)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/building-2.svg" alt="all" title="All" />
+                      <span>Office Products</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(13)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/factory.svg" alt="all" title="All" />
+                      <span>Industrial & Scientific</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(11)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/trophy.svg" alt="all" title="All" />
+                      <span>Sports</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(10)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/leaf.svg" alt="all" title="All" />
+                      <span>Garden</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(9)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/book-text.svg" alt="all" title="All" />
+                      <span>Books</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(8)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/paw-print.svg" alt="all" title="All" />
+                      <span>Pet Supplies</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(8)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/lamp-desk.svg" alt="all" title="All" />
+                      <span>Appliances</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(8)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/el.svg" alt="all" title="All" />
+                      <span>Electronics</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(8)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/utensils.svg" alt="all" title="All" />
+                      <span>Kitchen</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(6)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/shirt.svg" alt="all" title="All" />
+                      <span>Clothing</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(6)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/cross.svg" alt="all" title="All" />
+                      <span>Health & Household</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(6)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/user-round.svg" alt="all" title="All" />
+                      <span>Beauty & Personal Care</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(6)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/bab.svg" alt="all" title="All" />
+                      <span>Baby</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(6)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+
+                  <div class="n_category-head">
+                    <section class="n_left-sector">
+                      <img src="./assets/images/shapes.svg" alt="all" title="All" />
+                      <span>Toys</span>
+                    </section>
+                    <section class="n_right-sector">
+                      <span class="n_count">(6)</span>
+                      <input type="radio" title="radio" alt="radio" />
+                    </section>
+                  </div>
+                </div>
+              </div>
+
+              <!-- marketplace -->
+              <div class="n_marketplace-container">
+                <div class="n_marketplace-header" onclick="toggleMarketplace()">
+                  <div class="n_title">Marketplace</div>
+                  <div class="n_toggle-icon">
+                    <img src="./assets/images/open-down.svg" alt="Toggle" />
+                  </div>
+                </div>
+                <div class="n_marketplace-items" id="marketplace-items">
+                  <label class="n_marketplace-item">
+                    <input type="radio" name="marketplace" checked />
+                    <span class="n_item-label">All</span>
+                  </label>
+                  <label class="n_marketplace-item">
+                    <input type="radio" name="marketplace" />
+                    <span class="n_item-label">Amazon</span>
+                  </label>
+                  <label class="n_marketplace-item">
+                    <input type="radio" name="marketplace" />
+                    <span class="n_item-label">Ebay</span>
+                  </label>
+                  <label class="n_marketplace-item">
+                    <input type="radio" name="marketplace" />
+                    <span class="n_item-label">Etsy</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- discounts -->
+              <div class="n_discounts-container">
+                <div class="n_discounts-header" onclick="toggleDiscounts()">
+                  <div class="n_title">Discounts</div>
+                  <div class="n_toggle-icon-discounts">
+                    <img src="./assets/images/open-down.svg" alt="Toggle" />
+                  </div>
+                </div>
+                <div class="n_discounts-items" id="discounts-items">
+                  <label class="n_discounts-item">
+                    <input type="radio" name="discounts" checked />
+                    <span class="n_item-label">All</span>
+                  </label>
+                  <label class="n_discounts-item">
+                    <input type="radio" name="discounts" />
+                    <span class="n_item-label">10% off or more</span>
+                  </label>
+                  <label class="n_discounts-item">
+                    <input type="radio" name="discounts" />
+                    <span class="n_item-label">25% off or more</span>
+                  </label>
+                  <label class="n_discounts-item">
+                    <input type="radio" name="discounts" />
+                    <span class="n_item-label">50% off or more</span>
+                  </label>
+                  <label class="n_discounts-item">
+                    <input type="radio" name="discounts" />
+                    <span class="n_item-label">60% off or more</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- country -->
+              <div class="n_country-container">
+                <div class="n_country-header" onclick="toggleCountry()">
+                  <div class="n_title">Country</div>
+                  <div class="n_toggle-icon-country">
+                    <img src="./assets/images/open-down.svg" alt="Toggle" />
+                  </div>
+                </div>
+                <div class="n_country-items" id="country-items">
+                  <label class="n_country-item">
+                    <input type="radio" name="country" checked />
+                    <span class="n_item-label">All</span>
+                  </label>
+                  <label class="n_country-item">
+                    <input type="radio" name="country" />
+                    <span class="n_item-label">United States</span>
+                  </label>
+                  <label class="n_country-item">
+                    <input type="radio" name="country" />
+                    <span class="n_item-label">United Kingdom</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- price range -->
+              <div class="n_priceRange-container">
+                <div class="n_priceRange-header" onclick="togglePriceRange()">
+                  <div class="n_title">Price Range</div>
+                  <div class="n_toggle-icon-priceRange">
+                    <img src="./assets/images/open-down.svg" alt="Toggle" />
+                  </div>
+                </div>
+                <div class="n_priceRange-items" id="priceRange-items">
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" checked />
+                    <span class="n_item-label">All</span>
+                  </label>
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" />
+                    <span class="n_item-label">Under $20</span>
+                  </label>
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" />
+                    <span class="n_item-label">$20 - $50</span>
+                  </label>
+
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" />
+                    <span class="n_item-label">$50 - $100</span>
+                  </label>
+
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" />
+                    <span class="n_item-label">$100 - $200</span>
+                  </label>
+
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" />
+                    <span class="n_item-label">$200 - $500</span>
+                  </label>
+                  <label class="n_priceRange-item">
+                    <input type="radio" name="priceRange" />
+                    <span class="n_item-label">$500 & Above</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- ratings -->
+              <div class="n_ratings-container">
+                <div class="n_ratings-header" onclick="toggleRatings()">
+                  <div class="n_title">Price Range</div>
+                  <div class="n_toggle-icon-ratings">
+                    <img src="./assets/images/open-down.svg" alt="Toggle" />
+                  </div>
+                </div>
+                <div class="n_ratings-items" id="ratings-items">
+                  <label class="n_ratings-item">
+                    <section class="n_left">
+                      <input type="radio" name="ratings" checked />
+                      <div class="n_stars">
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                      </div>
+                    </section>
+
+                    <section class="n_right">
+                      <span>5</span>
+                    </section>
+                  </label>
+
+                  <label class="n_ratings-item">
+                    <section class="n_left">
+                      <input type="radio" name="ratings" checked />
+                      <div class="n_stars">
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                      </div>
+                    </section>
+
+                    <section class="n_right">
+                      <span>4+</span>
+                    </section>
+                  </label>
+
+                  <label class="n_ratings-item">
+                    <section class="n_left">
+                      <input type="radio" name="ratings" checked />
+                      <div class="n_stars">
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                      </div>
+                    </section>
+
+                    <section class="n_right">
+                      <span>3+</span>
+                    </section>
+                  </label>
+
+                  <label class="n_ratings-item">
+                    <section class="n_left">
+                      <input type="radio" name="ratings" checked />
+                      <div class="n_stars">
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                      </div>
+                    </section>
+
+                    <section class="n_right">
+                      <span>2+</span>
+                    </section>
+                  </label>
+
+                  <label class="n_ratings-item">
+                    <section class="n_left">
+                      <input type="radio" name="ratings" checked />
+                      <div class="n_stars">
+                        <img src="./assets/images/starfill.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                        <img src="./assets/images/star.svg" alt="star" />
+                      </div>
+                    </section>
+
+                    <section class="n_right">
+                      <span class="n_count-right">1+</span>
+                    </section>
+                  </label>
+                </div>
+              </div>
+
+              <!-- reset filter button -->
+              <button class="n_resetfilter">Reset Filters</button>
+            </section>
+          </div>
+        </aside>
+
+        <div class="n_container">
+          <!-- head area content -->
+          <section class="n_head-area">
+            <div class="n_left">
+              <a href="" class="n_item-left">
+                <img src="./assets/images/crc.svg" alt="Help" title="Help" />
+                <span>Help</span>
+              </a>
+              <a href="" class="n_item-left">
+                <img src="./assets/images/favv.svg" alt="Favorites" title="Favorites" />
+                <span>Favorites</span>
+              </a>
+              <a href="" class="n_item-left">
+                <img src="./assets/images/tg.svg" alt="Viewed deals" title="Viewed deals" />
+                <span>Viewed Deals</span>
+              </a>
+            </div>
+
+            <a href="" class="n_right-pricing-button">
+              <span>Pricing</span>
+              <img src="./assets/images/moveright.svg" alt="move" title="Pricing" />
+            </a>
+            <!-- TOGGLE MOBILE FILTER MENU -->
+            <div class="n_filter-for-mobile" style="display: none">
+              <div class="filter-mobile">
+                <img src="./assets/images/list-filter.svg" alt="" />
+                <span class="n_title-filters">Filters</span>
+              </div>
+
+              <div class="sidebar-overlay"></div>
+              <div class="sidebar">
+                <aside class="n_left-filter-container-for-mobile">
+                  <div class="n_content-filter">
+                    <section class="n_filter-and-icon">
+                      <div class="n_title-filter">
+                        <img src="./assets/images/list-filter.svg" alt="filter-icon" title="Filter" />
+                        <span>Filters</span>
+                      </div>
+                      <div class="n_right-icon" id="close_filter_icon">
+                        <img src="./assets/images/arrow-left-to-line.svg" alt="right-icon" />
+                      </div>
+                    </section>
+
+                    <section class="n_filter-container-main">
+                      <div class="n_search-area">
+                        <div class="n_search-input">
+                          <input type="search" title="Search" alt="search" placeholder="Search..." />
+                        </div>
+                        <div class="n_tag-container">
+                          <div class="n_tag">
+                            <span>Amazon</span>
+                            <img
+                              class="n_removeicon"
+                              src="./assets/images/closeicon.svg"
+                              alt="remove-icon"
+                              title="Remove Tag" />
+                          </div>
+                          <div class="n_tag">
+                            <span>United States</span>
+                            <img
+                              class="n_removeicon"
+                              src="./assets/images/closeicon.svg"
+                              alt="remove-icon"
+                              title="Remove Tag" />
+                          </div>
+                          <div class="n_tag">
+                            <span>Office Products</span>
+                            <img
+                              class="n_removeicon"
+                              src="./assets/images/closeicon.svg"
+                              alt="remove-icon"
+                              title="Remove Tag" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- top category (first) -->
+                      <div class="n_top-category-area">
+                        <div class="n_category-top-accord" onclick="toggleAccordionMobile()">
+                          <span class="n_left-title">Category</span>
+                          <div class="n_crop-icon">
+                            <img src="./assets/images/open-down.svg" alt="open-down" title="Close" />
+                          </div>
+                        </div>
+
+                        <div class="n_categories" id="categoriesmobile">
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/all.svg" alt="all" title="All" />
+                              <span>All</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(170)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/apple.svg" alt="all" title="All" />
+                              <span>Grocery & Food</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(14)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/smartphone-charging.svg" alt="all" title="All" />
+                              <span>Cell Phone & Accessories</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(14)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/lampp.svg" alt="all" title="All" />
+                              <span>Home Improvement</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(13)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/building-2.svg" alt="all" title="All" />
+                              <span>Office Products</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(13)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/factory.svg" alt="all" title="All" />
+                              <span>Industrial & Scientific</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(11)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/trophy.svg" alt="all" title="All" />
+                              <span>Sports</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(10)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/leaf.svg" alt="all" title="All" />
+                              <span>Garden</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(9)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/book-text.svg" alt="all" title="All" />
+                              <span>Books</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(8)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/paw-print.svg" alt="all" title="All" />
+                              <span>Pet Supplies</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(8)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/lamp-desk.svg" alt="all" title="All" />
+                              <span>Appliances</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(8)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/el.svg" alt="all" title="All" />
+                              <span>Electronics</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(8)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/utensils.svg" alt="all" title="All" />
+                              <span>Kitchen</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(6)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/shirt.svg" alt="all" title="All" />
+                              <span>Clothing</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(6)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/cross.svg" alt="all" title="All" />
+                              <span>Health & Household</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(6)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/user-round.svg" alt="all" title="All" />
+                              <span>Beauty & Personal Care</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(6)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/bab.svg" alt="all" title="All" />
+                              <span>Baby</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(6)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+
+                          <div class="n_category-head">
+                            <section class="n_left-sector">
+                              <img src="./assets/images/shapes.svg" alt="all" title="All" />
+                              <span>Toys</span>
+                            </section>
+                            <section class="n_right-sector">
+                              <span class="n_count">(6)</span>
+                              <input type="radio" title="radio" alt="radio" />
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- marketplace -->
+                      <div class="n_marketplace-container">
+                        <div class="n_marketplace-header" onclick="toggleMarketplaceMobile()">
+                          <div class="n_title">Marketplace</div>
+                          <div class="n_toggle-icon">
+                            <img src="./assets/images/open-down.svg" alt="Toggle" />
+                          </div>
+                        </div>
+                        <div class="n_marketplace-items" id="marketplace-itemsmobile">
+                          <label class="n_marketplace-item">
+                            <input type="radio" name="marketplace" checked />
+                            <span class="n_item-label">All</span>
+                          </label>
+                          <label class="n_marketplace-item">
+                            <input type="radio" name="marketplace" />
+                            <span class="n_item-label">Amazon</span>
+                          </label>
+                          <label class="n_marketplace-item">
+                            <input type="radio" name="marketplace" />
+                            <span class="n_item-label">Ebay</span>
+                          </label>
+                          <label class="n_marketplace-item">
+                            <input type="radio" name="marketplace" />
+                            <span class="n_item-label">Etsy</span>
+                          </label>
+                        </div>
+                      </div>
+
+                      <!-- discounts -->
+                      <div class="n_discounts-container">
+                        <div class="n_discounts-header" onclick="toggleDiscountsMobile()">
+                          <div class="n_title">Discounts</div>
+                          <div class="n_toggle-icon-discounts">
+                            <img src="./assets/images/open-down.svg" alt="Toggle" />
+                          </div>
+                        </div>
+                        <div class="n_discounts-items" id="discounts-itemsmobile">
+                          <label class="n_discounts-item">
+                            <input type="radio" name="discounts" checked />
+                            <span class="n_item-label">All</span>
+                          </label>
+                          <label class="n_discounts-item">
+                            <input type="radio" name="discounts" />
+                            <span class="n_item-label">10% off or more</span>
+                          </label>
+                          <label class="n_discounts-item">
+                            <input type="radio" name="discounts" />
+                            <span class="n_item-label">25% off or more</span>
+                          </label>
+                          <label class="n_discounts-item">
+                            <input type="radio" name="discounts" />
+                            <span class="n_item-label">50% off or more</span>
+                          </label>
+                          <label class="n_discounts-item">
+                            <input type="radio" name="discounts" />
+                            <span class="n_item-label">60% off or more</span>
+                          </label>
+                        </div>
+                      </div>
+
+                      <!-- country -->
+                      <div class="n_country-container">
+                        <div class="n_country-header" onclick="toggleCountryMobile()">
+                          <div class="n_title">Country</div>
+                          <div class="n_toggle-icon-country">
+                            <img src="./assets/images/open-down.svg" alt="Toggle" />
+                          </div>
+                        </div>
+                        <div class="n_country-items" id="country-itemsmobile">
+                          <label class="n_country-item">
+                            <input type="radio" name="country" checked />
+                            <span class="n_item-label">All</span>
+                          </label>
+                          <label class="n_country-item">
+                            <input type="radio" name="country" />
+                            <span class="n_item-label">United States</span>
+                          </label>
+                          <label class="n_country-item">
+                            <input type="radio" name="country" />
+                            <span class="n_item-label">United Kingdom</span>
+                          </label>
+                        </div>
+                      </div>
+
+                      <!-- price range -->
+                      <div class="n_priceRange-container">
+                        <div class="n_priceRange-header" onclick="togglePriceRangeMobile()">
+                          <div class="n_title">Price Range</div>
+                          <div class="n_toggle-icon-priceRange">
+                            <img src="./assets/images/open-down.svg" alt="Toggle" />
+                          </div>
+                        </div>
+                        <div class="n_priceRange-items" id="priceRange-itemsmobile">
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" checked />
+                            <span class="n_item-label">All</span>
+                          </label>
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" />
+                            <span class="n_item-label">Under $20</span>
+                          </label>
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" />
+                            <span class="n_item-label">$20 - $50</span>
+                          </label>
+
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" />
+                            <span class="n_item-label">$50 - $100</span>
+                          </label>
+
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" />
+                            <span class="n_item-label">$100 - $200</span>
+                          </label>
+
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" />
+                            <span class="n_item-label">$200 - $500</span>
+                          </label>
+                          <label class="n_priceRange-item">
+                            <input type="radio" name="priceRange" />
+                            <span class="n_item-label">$500 & Above</span>
+                          </label>
+                        </div>
+                      </div>
+
+                      <!-- ratings -->
+                      <div class="n_ratings-container">
+                        <div class="n_ratings-header" onclick="toggleRatingsMobile()">
+                          <div class="n_title">Price Range</div>
+                          <div class="n_toggle-icon-ratings">
+                            <img src="./assets/images/open-down.svg" alt="Toggle" />
+                          </div>
+                        </div>
+                        <div class="n_ratings-items" id="ratings-itemsmobile">
+                          <label class="n_ratings-item">
+                            <section class="n_left">
+                              <input type="radio" name="ratings" checked />
+                              <div class="n_stars">
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                              </div>
+                            </section>
+
+                            <section class="n_right">
+                              <span>5</span>
+                            </section>
+                          </label>
+
+                          <label class="n_ratings-item">
+                            <section class="n_left">
+                              <input type="radio" name="ratings" checked />
+                              <div class="n_stars">
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                              </div>
+                            </section>
+
+                            <section class="n_right">
+                              <span>4+</span>
+                            </section>
+                          </label>
+
+                          <label class="n_ratings-item">
+                            <section class="n_left">
+                              <input type="radio" name="ratings" checked />
+                              <div class="n_stars">
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                              </div>
+                            </section>
+
+                            <section class="n_right">
+                              <span>3+</span>
+                            </section>
+                          </label>
+
+                          <label class="n_ratings-item">
+                            <section class="n_left">
+                              <input type="radio" name="ratings" checked />
+                              <div class="n_stars">
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                              </div>
+                            </section>
+
+                            <section class="n_right">
+                              <span>2+</span>
+                            </section>
+                          </label>
+
+                          <label class="n_ratings-item">
+                            <section class="n_left">
+                              <input type="radio" name="ratings" checked />
+                              <div class="n_stars">
+                                <img src="./assets/images/starfill.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                                <img src="./assets/images/star.svg" alt="star" />
+                              </div>
+                            </section>
+
+                            <section class="n_right">
+                              <span class="n_count-right">1+</span>
+                            </section>
+                          </label>
+                        </div>
+                      </div>
+
+                      <!-- reset filter button -->
+                      <button class="n_resetfilter">Reset Filters</button>
+                    </section>
+                  </div>
+                </aside>
+              </div>
+
+              <a href="" class="n_right-pricing-buttonmobile">
+                <span>Pricing</span>
+                <img src="./assets/images/moveright.svg" alt="move" title="Pricing" />
+              </a>
+            </div>
+          </section>
+
+          <section class="n_main-top-banner-area">
+            <img class="n_google-pixel" src="./assets/images/googlepixel.svg" alt="" />
+            <img class="n_bag" src="./assets/images/img6.svg" alt="" />
+            <img class="n_lamp" src="./assets/images/img5.svg" alt="" />
+            <img class="n_phone" src="./assets/images/img8.svg" alt="" />
+            <img class="n_headphones" src="./assets/images/img9.svg" alt="" />
+            <!-- highest and quality button -->
+            <div class="n_button-highest-and-quality">
+              <span class="n_highest">Highest</span>
+              <span class="n_quality">Quality</span>
+            </div>
+
+            <!-- text area -->
+            <section class="n_texts">
+              <span class="n_todaysdeal">Today's Deal</span>
+              <div class="n_main-text">
+                <h1>Discover Incredible Savings on Your Favourite Products.</h1>
+                <p>
+                  Discounts to Save Big on the Brands You Love. Don't Miss Out on Limited-Time Offers and Special
+                  Coupons Curated Just for You!
+                </p>
+              </div>
+              <a href="" class="n_shownow_btn">
+                <span>Shop Now</span>
+                <img src="./assets/images/moveright.svg" alt="" />
+              </a>
+            </section>
+          </section>
+
+          <!-- carousel for top products -->
+          <section class="n_carousel-items-area">
+            <div class="owl-carousel owl-carousel-top-product">
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/amazon.svg" alt="" />
+                </div>
+                <span class="n_title"> Amazon </span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/ebay.svg" alt="" />
+                </div>
+                <span class="n_title"> Ebay</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/electronics.svg" alt="" />
+                </div>
+                <span class="n_title"> Electronics</span>
+              </a>
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/clothing.svg" alt="" />
+                </div>
+                <span class="n_title"> Clothing, Shoes</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/home.svg" alt="" />
+                </div>
+                <span class="n_title"> Home & Kitchen</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/househod.svg" alt="" />
+                </div>
+                <span class="n_title"> Household</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/personalcare.svg" alt="" />
+                </div>
+                <span class="n_title"> Personal Care</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/baby.svg" alt="" />
+                </div>
+                <span class="n_title"> Baby</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/grocery.svg" alt="" />
+                </div>
+                <span class="n_title"> Grocery</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/toys.svg" alt="" />
+                </div>
+                <span class="n_title"> Toys & Games</span>
+              </a>
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/phones.svg" alt="" />
+                </div>
+                <span class="n_title"> Phones & Accessories</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/homeimp.svg" alt="" />
+                </div>
+                <span class="n_title">Home Improvements</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/office.svg" alt="" />
+                </div>
+                <span class="n_title">Office Products</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/ind.svg" alt="" />
+                </div>
+                <span class="n_title">Industrial</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/tenis.svg" alt="" />
+                </div>
+                <span class="n_title">Sports</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/garden.svg" alt="" />
+                </div>
+                <span class="n_title">Garden</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/books.svg" alt="" />
+                </div>
+                <span class="n_title">Books</span>
+              </a>
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/pet.svg" alt="" />
+                </div>
+                <span class="n_title">Pet Supplies</span>
+              </a>
+
+              <a href="" class="item">
+                <div class="n_top-wrapper-icon">
+                  <img src="./assets/images/appl.svg" alt="" />
+                </div>
+                <span class="n_title">Appliances</span>
+              </a>
+            </div>
+          </section>
+
+          <div class="n_container-product-content">
+            <!-- left navigation and category area -->
+            <section class="n_top-head-product-content">
+              <article class="n_left-navigation">
+                <a href="" class="n_current">Home</a>
+                <span class="n_slash">/</span>
+                <a href="" class="n_prevs">Today's Deal</a>
+              </article>
+
+              <div class="n_right-sortby-category">
+                <div class="n_sort-by">
+                  <img src="./assets/images/upp.svg" alt="up" />
+                  <span>Sort by</span>
+                </div>
+                <div class="custom-dropdown">
+                  <button class="custom-dropdown-btn" id="dropdownMenuButton">
+                    <span class="title"> Select Filter </span>
+                    <img class="arrow" src="./assets/images/open-down.svg" alt="" />
+                  </button>
+                  <ul class="custom-dropdown-menu" id="dropdownMenu">
+                    <li>
+                      <a href="#" data-value="hottest" class="selected"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Hottest</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="popular"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Popular</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="limited"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Limited</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="newest"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Newest</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="alphabetically-az"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Alphabetically, A-Z</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="alphabetically-za"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Alphabetically, Z-A</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="price-low-high"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Price, low to high</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="price-high-low"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Price, high to low</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="date-old-new"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Date, old to new</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-value="date-new-old"
+                        ><img src="./assets/images/verify.svg" alt="icon" class="icon" /> Date, new to old</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <!-- products container and right tracking area -->
+            <section class="n_products-container">
+              <div class="n_leftproducts">
+                <div class="n_products">
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro1.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn">
+                        <img src="./assets/images/hottesticon.svg" alt="" />
+                        <span>hottest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/ebay.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro2.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn liked">
+                        <img src="./assets/images/liked.svg" alt="" />
+                        <span>popular</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/etsy.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro3.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn limited">
+                        <img src="./assets/images/limitedstar.svg" alt="" />
+                        <span>limited</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro4.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn newest">
+                        <img src="./assets/images/newest.svg" alt="" />
+                        <span>newest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- if mobile version add the tracking area here -->
+                <div class="n_trackingarea-formobile" style="display: none">
+                  <section class="n_promote-deals">
+                    <img class="n_filter_back" src="./assets/images/vector.svg" alt="filter" />
+                    <img src="./assets/images/ellipse.svg" class="n_ellipse_border" alt="ellipse" />
+                    <img src="./assets/images/happyman.svg" alt="" class="n_man" />
+                    <div class="n_promote-your-deals">
+                      <span>Promote Your Deals</span>
+                    </div>
+                    <p class="n_text">Coupons, and Products on our website now.</p>
+                    <a href="" class="n_apply-now-btn"> Apply Now </a>
+                  </section>
+
+                  <section class="n_todaysupdatebox">
+                    <h3 class="n_title">Today's update</h3>
+
+                    <div class="n_options">
+                      <div class="n_items">
+                        <article class="n_item-option">
+                          <div class="n-left">
+                            <h4>150+</h4>
+                            <p>Deals Added</p>
+                          </div>
+                          <img src="./assets/images/1.svg" alt="tag" />
+                        </article>
+                        <article class="n_item-option">
+                          <div class="n-left">
+                            <h4>3005+</h4>
+                            <p>Reviews added</p>
+                          </div>
+                          <img src="./assets/images/2.svg" alt="tag" />
+                        </article>
+                      </div>
+                      <a href="" class="n_explore-btn">Explore</a>
+                    </div>
+                  </section>
+
+                  <section class="n_create_campaign">
+                    <img src="./assets/images/polygon.svg" class="n_polygon_filter" alt="polygon_filter" />
+                    <img src="./assets/images/f1.svg" class="n_polygon_filter2" alt="polygon_filter" />
+                    <img src="./assets/images/f2.svg" class="n_polygon_filter3" alt="polygon_filter" />
+
+                    <article class="n_top-article">
+                      <div class="n_icon-wrapper">
+                        <img src="./assets/images/auder.svg" alt="audio-resizer" />
+                      </div>
+                      <div class="n_texts_other">
+                        <h4>Create Campaign</h4>
+                        <p>Create your first product campaign to get attention of client</p>
+                      </div>
+                    </article>
+
+                    <a href="" class="n_createnow_btn"> Create Now </a>
+                  </section>
+                </div>
+                <!-- if mobile version add the tracking area here -->
+                <div class="n_products">
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro1.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn">
+                        <img src="./assets/images/hottesticon.svg" alt="" />
+                        <span>hottest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/ebay.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro2.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn liked">
+                        <img src="./assets/images/liked.svg" alt="" />
+                        <span>popular</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/etsy.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro3.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn limited">
+                        <img src="./assets/images/limitedstar.svg" alt="" />
+                        <span>limited</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro4.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn newest">
+                        <img src="./assets/images/newest.svg" alt="" />
+                        <span>newest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro1.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn">
+                        <img src="./assets/images/hottesticon.svg" alt="" />
+                        <span>hottest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/ebay.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro2.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn liked">
+                        <img src="./assets/images/liked.svg" alt="" />
+                        <span>popular</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/etsy.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro3.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn limited">
+                        <img src="./assets/images/limitedstar.svg" alt="" />
+                        <span>limited</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro4.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn newest">
+                        <img src="./assets/images/newest.svg" alt="" />
+                        <span>newest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/ebay.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro2.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn liked">
+                        <img src="./assets/images/liked.svg" alt="" />
+                        <span>popular</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/etsy.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro3.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn limited">
+                        <img src="./assets/images/limitedstar.svg" alt="" />
+                        <span>limited</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro4.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn newest">
+                        <img src="./assets/images/newest.svg" alt="" />
+                        <span>newest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro1.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn">
+                        <img src="./assets/images/hottesticon.svg" alt="" />
+                        <span>hottest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/ebay.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro2.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn liked">
+                        <img src="./assets/images/liked.svg" alt="" />
+                        <span>popular</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/etsy.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro3.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn limited">
+                        <img src="./assets/images/limitedstar.svg" alt="" />
+                        <span>limited</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro4.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn newest">
+                        <img src="./assets/images/newest.svg" alt="" />
+                        <span>newest</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="n_product-item-card">
+                    <article class="n_seller-company">
+                      <img src="./assets/images/etsy.svg" alt="icon_seller_company" />
+                    </article>
+                    <article class="n_add-favourite">
+                      <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                    </article>
+                    <div class="n_product-image-content">
+                      <img src="./assets/images/pro3.png" alt="product-image" />
+                    </div>
+
+                    <div class="n_product-item-content">
+                      <div href="" class="n_hottest-btn limited">
+                        <img src="./assets/images/limitedstar.svg" alt="" />
+                        <span>limited</span>
+                      </div>
+
+                      <a href="" class="n_hrefing">
+                        <article class="n_text-and-star">
+                          <h3 class="n_title-product">
+                            Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                          </h3>
+                          <div class="n_product-rating">
+                            <div class="n_stars">
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/starfill.svg" alt="star" />
+                              <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                            </div>
+                            <div class="n_count-star">
+                              <span>3</span>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="n_product-prices">
+                          <h2 class="n_current_price">$93.59</h2>
+                          <h3 class="n_discount_price">$93.59</h3>
+                        </article>
+                        <span class="n_discount_percent"> 39% </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <section class="n_pagination-area">
+                  <article class="n_left-items-counters">
+                    <p class="n_showing-off">Showing 16 of</p>
+                    <p class="n_item-count">2,189 items</p>
+                  </article>
+
+                  <div class="n_pagination">
+                    <a href="" class="n_prev">
+                      <img src="./assets/images/chevron-right.svg" alt="prev" />
+                    </a>
+                    <div class="n_pags">
+                      <a href="" class="n_pagenumber n_current_page_active"> 1 </a>
+                      <a href="" class="n_pagenumber"> 2 </a>
+                      <a href="" class="n_pagenumber"> 3 </a>
+                    </div>
+                    <a href="" class="n_next">
+                      <img src="./assets/images/chevron-right2.svg" alt="prev" />
+                    </a>
+                  </div>
+                </section>
+              </div>
+
+              <div class="n_trackingarea">
+                <section class="n_promote-deals">
+                  <img class="n_filter_back" src="./assets/images/vector.svg" alt="filter" />
+                  <img src="./assets/images/ellipse.svg" class="n_ellipse_border" alt="ellipse" />
+                  <img src="./assets/images/happyman.svg" alt="" class="n_man" />
+                  <div class="n_promote-your-deals">
+                    <span>Promote Your Deals</span>
+                  </div>
+                  <p class="n_text">Coupons, and Products on our website now.</p>
+                  <a href="" class="n_apply-now-btn"> Apply Now </a>
+                </section>
+
+                <section class="n_todaysupdatebox">
+                  <h3 class="n_title">Today's update</h3>
+
+                  <div class="n_options">
+                    <article class="n_item-option">
+                      <div class="n-left">
+                        <h4>150+</h4>
+                        <p>Deals Added</p>
+                      </div>
+                      <img src="./assets/images/1.svg" alt="tag" />
+                    </article>
+                    <article class="n_item-option">
+                      <div class="n-left">
+                        <h4>3005+</h4>
+                        <p>Reviews added</p>
+                      </div>
+                      <img src="./assets/images/2.svg" alt="tag" />
+                    </article>
+                    <a href="" class="n_explore-btn">Explore</a>
+                  </div>
+                </section>
+
+                <section class="n_create_campaign">
+                  <img src="./assets/images/polygon.svg" class="n_polygon_filter" alt="polygon_filter" />
+                  <img src="./assets/images/f1.svg" class="n_polygon_filter2" alt="polygon_filter" />
+                  <img src="./assets/images/f2.svg" class="n_polygon_filter3" alt="polygon_filter" />
+
+                  <article class="n_top-article">
+                    <div class="n_icon-wrapper">
+                      <img src="./assets/images/auder.svg" alt="audio-resizer" />
+                    </div>
+                    <div class="n_texts_other">
+                      <h4>Create Campaign</h4>
+                      <p>Create your first product campaign to get attention of client</p>
+                    </div>
+                  </article>
+
+                  <a href="" class="n_createnow_btn"> Create Now </a>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom viewed deals -->
+      <div class="n_bottom-viewed-deals-container-wrapper">
+        <div class="n_bottom-viewed-deals">
+          <!-- title viewed deals -->
+          <h3 class="n_title-viewed-deals">Viewed Deals</h3>
+          <section class="n_carousel-viewed-deals">
+            <div class="owl-carousel owl-carousel-viewed-deals">
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro1.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro2.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro3.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro4.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro1.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro2.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro3.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro1.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro4.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="item">
+                <article class="n_seller-company">
+                  <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+                </article>
+                <article class="n_add-favourite">
+                  <img src="./assets/images/Icon.svg" alt="add_favourite" />
+                </article>
+                <div class="n_product-image-content">
+                  <img src="./assets/images/pro2.png" alt="product-image" />
+                </div>
+
+                <div class="n_product-item-content">
+                  <div href="" class="n_hottest-btn">
+                    <img src="./assets/images/hottesticon.svg" alt="" />
+                    <span>hottest</span>
+                  </div>
+
+                  <a href="" class="n_hrefing">
+                    <article class="n_text-and-star">
+                      <h3 class="n_title-product">
+                        Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                      </h3>
+                      <div class="n_product-rating">
+                        <div class="n_stars">
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/starfill.svg" alt="star" />
+                          <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                        </div>
+                        <div class="n_count-star">
+                          <span>3</span>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="n_product-prices">
+                      <h2 class="n_current_price">$93.59</h2>
+                      <h3 class="n_discount_price">$93.59</h3>
+                    </article>
+                    <span class="n_discount_percent"> 39% </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- mobile bottom viewed deals -->
+      <div class="n_bottom-viewed-deals-container-wrapper-mobile" style="display: none">
+        <div class="n_bottom-viewed-deals-mobile">
+          <!-- title viewed deals -->
+          <h3 class="n_title-viewed-deals">Viewed Deals</h3>
+
+          <!-- viewed deals -->
+          <section class="n_carousel-viewed-deals">
+            <a href="" class="swiper-slide n_product-item-card">
+              <article class="n_seller-company">
+                <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+              </article>
+              <article class="n_add-favourite">
+                <img src="./assets/images/Icon.svg" alt="add_favourite" />
+              </article>
+              <div class="n_product-image-content">
+                <img src="./assets/images/pro2.png" alt="product-image" />
+              </div>
+
+              <div class="n_product-item-content">
+                <article class="n_text-and-star">
+                  <h3 class="n_title-product">
+                    Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                  </h3>
+                  <div class="n_product-rating">
+                    <div class="n_stars">
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                    </div>
+                    <p class="n_count-star">3</p>
+                  </div>
+                </article>
+
+                <article class="n_product-prices">
+                  <h2 class="n_current_price">$93.59</h2>
+                  <h3 class="n_discount_price">$93.59</h3>
+                </article>
+                <span class="n_discount_percent"> 39% </span>
+              </div>
+            </a>
+
+            <a href="" class="swiper-slide n_product-item-card">
+              <article class="n_seller-company">
+                <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+              </article>
+              <article class="n_add-favourite">
+                <img src="./assets/images/Icon.svg" alt="add_favourite" />
+              </article>
+              <div class="n_product-image-content">
+                <img src="./assets/images/pro3.png" alt="product-image" />
+              </div>
+
+              <div class="n_product-item-content">
+                <article class="n_text-and-star">
+                  <h3 class="n_title-product">
+                    Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                  </h3>
+                  <div class="n_product-rating">
+                    <div class="n_stars">
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                    </div>
+                    <p class="n_count-star">3</p>
+                  </div>
+                </article>
+
+                <article class="n_product-prices">
+                  <h2 class="n_current_price">$93.59</h2>
+                  <h3 class="n_discount_price">$93.59</h3>
+                </article>
+                <span class="n_discount_percent"> 39% </span>
+              </div>
+            </a>
+
+            <a href="" class="swiper-slide n_product-item-card">
+              <article class="n_seller-company">
+                <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+              </article>
+              <article class="n_add-favourite">
+                <img src="./assets/images/Icon.svg" alt="add_favourite" />
+              </article>
+              <div class="n_product-image-content">
+                <img src="./assets/images/pro1.png" alt="product-image" />
+              </div>
+
+              <div class="n_product-item-content">
+                <article class="n_text-and-star">
+                  <h3 class="n_title-product">
+                    Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                  </h3>
+                  <div class="n_product-rating">
+                    <div class="n_stars">
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                    </div>
+                    <p class="n_count-star">3</p>
+                  </div>
+                </article>
+
+                <article class="n_product-prices">
+                  <h2 class="n_current_price">$93.59</h2>
+                  <h3 class="n_discount_price">$93.59</h3>
+                </article>
+                <span class="n_discount_percent"> 39% </span>
+              </div>
+            </a>
+
+            <a href="" class="swiper-slide n_product-item-card">
+              <article class="n_seller-company">
+                <img src="./assets/images/amazon.svg" alt="icon_seller_company" />
+              </article>
+              <article class="n_add-favourite">
+                <img src="./assets/images/Icon.svg" alt="add_favourite" />
+              </article>
+              <div class="n_product-image-content">
+                <img src="./assets/images/pro4.png" alt="product-image" />
+              </div>
+
+              <div class="n_product-item-content">
+                <article class="n_text-and-star">
+                  <h3 class="n_title-product">
+                    Best Momcozy M6 Wearable Breast Pump, Special Hands-Free Breastfeeding Pump for Mobil Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Laborum, excepturi?
+                  </h3>
+                  <div class="n_product-rating">
+                    <div class="n_stars">
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/starfill.svg" alt="star" />
+                      <img src="./assets/images/hlff.svg" alt="half-star" class="n_half_star" />
+                    </div>
+                    <p class="n_count-star">3</p>
+                  </div>
+                </article>
+
+                <article class="n_product-prices">
+                  <h2 class="n_current_price">$93.59</h2>
+                  <h3 class="n_discount_price">$93.59</h3>
+                </article>
+                <span class="n_discount_percent"> 39% </span>
+              </div>
+            </a>
+          </section>
+
+          <a href="" class="n_loadmore">Load More</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
