@@ -33,7 +33,14 @@
         <!-- content area wrapper -->
         <div class="n_content-wrapper">
           <div class="n_top-product-slider-image-and-product-details">
-            <section class="n_product-image-slider-left">wefwefwefwef</section>
+            
+            
+            <section class="n_product-image-slider-left">
+              
+              
+            </section>
+
+
 
             <section class="n_product-details-right">
               <article class="n_top-share-save-and-more">
@@ -127,6 +134,33 @@
                   </div>
                 </section>
 
+                <!-- if mobile -->
+                 <div class="n_prices-and-coupons-mobile" style="display: none;">
+                  <section class="n_prices">
+                    <span class="n_currentprice">$33.29</span>
+                    <span class="n_discountprice">$44.99</span>
+                    <span class="n_percent-count"> 30% </span>
+                  </section>
+  
+                  <section class="n_coupons">
+                    <div class="n_left-checkdeal">
+                      <a href="" class="n_check-deal-btn"> Check Deal </a>
+  
+                      <button class="n_copy-the-coupon">
+                        <span class="n_coupon"> Coupon: G3Q8S49T  </span>
+                        <img src="./assets/images/copy.svg" class="copy-icon" alt="Copy" title="Copy coupon" />
+                      </button>
+                    </div>
+  
+                    <div class="n_right-all-deals">
+                      <a href="" class="n_deals-btn">
+                        <img src="./assets/images/amazon.svg" alt="amazon" title="All Amazon Deals" />
+                        <span>All Amazon Deals</span>
+                      </a>
+                    </div>
+                  </section>
+                 </div>
+
                 <section class="n_limited-time-offer">
                   <strong class="n_timeoffertext"> Limited Time Offer: </strong>
                   <div class="n_countdown-content">
@@ -138,6 +172,21 @@
                   </div>
 
                   <p class="n_text-remaining">Remains until the end of the offer.</p>
+                </section>
+                <!-- if mobile limited time offer -->
+                <section class="n_limited-time-offer-mobile" style="display: none;">
+                  <strong class="n_timeoffertext"> Limited Time Offer: </strong>
+                  <div class="n_count-time">
+                    <div class="n_countdown-content">
+                      <li class="n_time">81</li>
+                      <li class="n_time">06</li>
+                      <li class="n_time">50</li>
+                      <span class="n_dot">:</span>
+                      <li class="n_time">02</li>
+                    </div>
+  
+                    <p class="n_text-remaining">Remains until the end of the offer.</p>
+                  </div>
                 </section>
 
                 <section class="n_bottom-product-content">
@@ -151,7 +200,9 @@
                         <article class="n_top">
                           <div class="n_titles">
                             <h3 class="n_off-store-title">Momcozy Official Store</h3>
-                            <img src="./assets/images/danger.svg" alt="danger" title="" />
+                            <img class="n_danger-icon" src="./assets/images/danger.svg" alt="danger" title="" />
+                            <!-- if mobile change this danger to => verify -->
+                            <img style="display: none;" class="n_verified-icon" src="./assets/images/verified.svg" alt="danger" title="" />
                           </div>
                           <div class="n_stars-and-reyting-count">
                             <div class="n_stars-imgs">
@@ -172,6 +223,11 @@
                     </div>
 
                     <div class="n_right-save-to-list">
+                      <img src="./assets/images/like.svg" alt="Save" title="Save to list" />
+                      <a href="" class="link-save-to-list">Save to List</a>
+                    </div>
+                    <!-- if mobile check this save-to-list component under -->
+                    <div class="n_right-save-to-list-mobile" style="display: none;">
                       <img src="./assets/images/like.svg" alt="Save" title="Save to list" />
                       <a href="" class="link-save-to-list">Save to List</a>
                     </div>
@@ -368,6 +424,95 @@
                       </div>
                     </div>
                   </section>
+
+                  <!-- for mobile ratings container -->
+                  <section class="n_ratings-container-for-mobile" style="display: none;">
+                    <div class="n_top">
+                      <div class="n_item_first_top">
+                        <div class="n_item-top">
+                          <h5 class="n_item-title">Total Reviews</h5>
+  
+                        <article class="n_countandtext">
+                          <h2 class="n_count">1000</h2>
+                          <p class="n_text">Only In Test Market</p>
+                        </article>
+                        </div>
+                      </div>
+  
+                      <div class="n_item_first_top">
+                        <div class="n_item-top">
+                          <h5 class="n_item-title">Average Rating</h5>
+  
+                        <article class="n_countandtext">
+                          <div class="n_count-and-stars">
+                            <h2 class="n_count">4.9</h2>
+                            <div class="n_stars-count">
+                              <img src="./assets/images/starfill.svg" alt="" />
+                              <img src="./assets/images/starfill.svg" alt="" />
+                              <img src="./assets/images/starfill.svg" alt="" />
+                              <img src="./assets/images/starfill.svg" alt="" />
+                              <img src="./assets/images/starfill.svg" alt="" />
+                            </div>
+                          </div>
+                          <p class="n_text">Average rating on this year</p>
+                        </article>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <div class="n_item_first_bottom">
+                      <div class="n_stars-rating-calculate">
+                        <article class="n_star-and-num">
+                          <img src="./assets/images/starnone.svg" alt="star" />
+                          <span class="n_num">5</span>
+                        </article>
+
+                        <article class="n_progress-bar"></article>
+                        <p class="n_count-num">500</p>
+                      </div>
+
+                      <div class="n_stars-rating-calculate">
+                        <article class="n_star-and-num">
+                          <img src="./assets/images/starnone.svg" alt="star" />
+                          <span class="n_num">4</span>
+                        </article>
+
+                        <article class="n_progress-bar"></article>
+                        <p class="n_count-num">300</p>
+                      </div>
+
+                      <div class="n_stars-rating-calculate">
+                        <article class="n_star-and-num">
+                          <img src="./assets/images/starnone.svg" alt="star" />
+                          <span class="n_num">3</span>
+                        </article>
+
+                        <article class="n_progress-bar"></article>
+                        <p class="n_count-num">150</p>
+                      </div>
+
+                      <div class="n_stars-rating-calculate">
+                        <article class="n_star-and-num">
+                          <img src="./assets/images/starnone.svg" alt="star" />
+                          <span class="n_num">2</span>
+                        </article>
+
+                        <article class="n_progress-bar"></article>
+                        <p class="n_count-num">50</p>
+                      </div>
+
+                      <div class="n_stars-rating-calculate">
+                        <article class="n_star-and-num">
+                          <img src="./assets/images/starnone.svg" alt="star" />
+                          <span class="n_num">2</span>
+                        </article>
+
+                        <article class="n_progress-bar"></article>
+                        <p class="n_count-num">9</p>
+                      </div>
+                    </div>
+                  </section>
+
 
                   <section class="n_comments-container">
                     <article class="n_comment-item n_recommended">
@@ -767,7 +912,6 @@
                   </div>
 
                   <div class="n_add-to-card-area">
-                    
                     <a href="" class="n_addtocard">
                       <span>Add to cart</span>
                       <img src="./assets/images/plus.svg" alt="add" title="Add to card" />
@@ -824,7 +968,6 @@
                   </div>
 
                   <div class="n_add-to-card-area">
-                  
                     <a href="" class="n_addtocard">
                       <span>Add to cart</span>
                       <img src="./assets/images/plus.svg" alt="add" title="Add to card" />
@@ -849,11 +992,132 @@
                   </div>
                 </article>
               </div>
+
+              <div class="n_promotions">
+                <span class="n_title-promotions"> promotions </span>
+
+                <section class="n_card-promote-your-deals">
+                  <img class="n_ellipse" src="./assets/images/ellipse.svg" alt="" />
+                  <img src="./assets/images/Vector 4.svg" alt="" class="n_filter" />
+                  <img class="n_human" src="./assets/images/human.svg" alt="" />
+                  <div class="n_texts">
+                    <div class="n_promote-your-deals">
+                      <span>Promote Your Deals</span>
+                    </div>
+                    <p class="n_text">Coupons, and Products on our website now.</p>
+                    <a href="" class="n_apply-now"> apply now </a>
+                  </div>
+                </section>
+
+                <section class="n_card-explore-products">
+                  <img class="n_ellipse" src="./assets/images/polygon2.svg" alt="" />
+                  <img class="n_human" src="./assets/images/girlk.svg" alt="" />
+                  <div class="n_texts">
+                    <div class="n_explore">
+                      <span>Explore Products</span>
+                    </div>
+                    <p class="n_text">Coupons, and Products on our website now.</p>
+                    <a href="" class="n_apply-now"> apply now </a>
+                  </div>
+                </section>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </main>
+
+    <div class="n_accordion-container">
+      <div class="n_accordions">
+        <h2 class="n_title-accordionhead">Frequently Asked Questions</h2>
+
+        <div class="n_accordion">
+          <div class="n_accordion-item">
+            <button class="n_accordion-header">
+              <p class="n_text-inner">Introduction: Why Is the Momcozy Portable Diaper Changing Pad So Popular?</p>
+              <img src="./assets/images/closeaccord.svg" alt="" />
+            </button>
+            <div class="n_accordion-content">
+              <p>
+                When it comes to parenting essentials, the Momcozy Portable Diaper Changing Pad is a standout product.
+                Loved by many, it promises convenience, quality, and functionality—all at an affordable price. Here's
+                why this diaper changing pad is winning the hearts of parents everywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="n_accordion-item">
+            <button class="n_accordion-header">
+              <p class="n_text-inner">Introduction: Why Is the Momcozy Portable Diaper Changing Pad So Popular?</p>
+              <img src="./assets/images/closeaccord.svg" alt="" />
+            </button>
+            <div class="n_accordion-content">
+              <p>
+                When it comes to parenting essentials, the Momcozy Portable Diaper Changing Pad is a standout product.
+                Loved by many, it promises convenience, quality, and functionality—all at an affordable price. Here's
+                why this diaper changing pad is winning the hearts of parents everywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="n_accordion-item">
+            <button class="n_accordion-header">
+              <p class="n_text-inner">Introduction: Why Is the Momcozy Portable Diaper Changing Pad So Popular?</p>
+              <img src="./assets/images/closeaccord.svg" alt="" />
+            </button>
+            <div class="n_accordion-content">
+              <p>
+                When it comes to parenting essentials, the Momcozy Portable Diaper Changing Pad is a standout product.
+                Loved by many, it promises convenience, quality, and functionality—all at an affordable price. Here's
+                why this diaper changing pad is winning the hearts of parents everywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="n_accordion-item">
+            <button class="n_accordion-header">
+              <p class="n_text-inner">Introduction: Why Is the Momcozy Portable Diaper Changing Pad So Popular?</p>
+              <img src="./assets/images/closeaccord.svg" alt="" />
+            </button>
+            <div class="n_accordion-content">
+              <p>
+                When it comes to parenting essentials, the Momcozy Portable Diaper Changing Pad is a standout product.
+                Loved by many, it promises convenience, quality, and functionality—all at an affordable price. Here's
+                why this diaper changing pad is winning the hearts of parents everywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="n_accordion-item">
+            <button class="n_accordion-header">
+              <p class="n_text-inner">Introduction: Why Is the Momcozy Portable Diaper Changing Pad So Popular?</p>
+              <img src="./assets/images/closeaccord.svg" alt="" />
+            </button>
+            <div class="n_accordion-content">
+              <p>
+                When it comes to parenting essentials, the Momcozy Portable Diaper Changing Pad is a standout product.
+                Loved by many, it promises convenience, quality, and functionality—all at an affordable price. Here's
+                why this diaper changing pad is winning the hearts of parents everywhere.
+              </p>
+            </div>
+          </div>
+
+          <div class="n_accordion-item">
+            <button class="n_accordion-header">
+              <p class="n_text-inner">Introduction: Why Is the Momcozy Portable Diaper Changing Pad So Popular?</p>
+              <img src="./assets/images/closeaccord.svg" alt="" />
+            </button>
+            <div class="n_accordion-content">
+              <p>
+                When it comes to parenting essentials, the Momcozy Portable Diaper Changing Pad is a standout product.
+                Loved by many, it promises convenience, quality, and functionality—all at an affordable price. Here's
+                why this diaper changing pad is winning the hearts of parents everywhere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -863,5 +1127,49 @@
     <!-- Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script>
+      // ACCORDİONS
+      document.addEventListener("DOMContentLoaded", () => {
+        const accordionHeaders = document.querySelectorAll(".n_accordion-header");
+        const accordionItems = document.querySelectorAll(".n_accordion-item");
+
+        const firstAccordionItem = accordionItems[0];
+        if (firstAccordionItem) {
+          firstAccordionItem.classList.add("active");
+          firstAccordionItem.querySelector(".n_accordion-content").style.display = "block";
+          firstAccordionItem.querySelector(".n_accordion-header img").src = "./assets/images/openaccord.svg";
+        }
+
+        accordionItems.forEach((item, index) => {
+          if (index !== 0) {
+            item.querySelector(".n_accordion-content").style.display = "none";
+            item.querySelector(".n_accordion-header img").src = "./assets/images/closeaccord.svg";
+          }
+        });
+
+        accordionHeaders.forEach((header) => {
+          header.addEventListener("click", () => {
+            const accordionItem = header.parentElement;
+            const isActive = accordionItem.classList.contains("active");
+
+            if (!isActive) {
+              accordionItems.forEach((item) => {
+                item.classList.remove("active");
+                item.querySelector(".n_accordion-content").style.display = "none";
+                item.querySelector(".n_accordion-header img").src = "./assets/images/closeaccord.svg";
+              });
+
+              accordionItem.classList.add("active");
+              accordionItem.querySelector(".n_accordion-content").style.display = "block";
+              header.querySelector("img").src = "./assets/images/openaccord.svg";
+            } else {
+              accordionItem.classList.remove("active");
+              accordionItem.querySelector(".n_accordion-content").style.display = "none";
+              header.querySelector("img").src = "./assets/images/closeaccord.svg";
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
