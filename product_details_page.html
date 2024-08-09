@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/productdetail.css" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Owl Carousel CSS -->
@@ -30,17 +30,34 @@
           <a href="" class="currentpage">Best Momcozy Portable Diaper Changing Pad</a>
         </section>
 
+        <!-- navigator for mobile -->
+        <section class="n_navigator-container-mobile" style="display: none">
+          <div class="n_left">
+            <div class="icon">
+              <img src="./assets/images/chevron-down.svg" alt="" />
+            </div>
+            <span>Product Details</span>
+          </div>
+
+          <div class="n_right">
+            <div class="n_save">
+              <img src="./assets/images/favv.svg" alt="" />
+              <a href="">Save</a>
+            </div>
+
+            <div class="n_share">
+              <img src="./assets/images/favv.svg" alt="" />
+              <a href="">Share</a>
+            </div>
+          </div>
+        </section>
+
         <!-- content area wrapper -->
         <div class="n_content-wrapper">
           <div class="n_top-product-slider-image-and-product-details">
-            
-            
             <section class="n_product-image-slider-left">
-              
-              
+              <img src="./assets/images/productimg.svg" alt="" />
             </section>
-
-
 
             <section class="n_product-details-right">
               <article class="n_top-share-save-and-more">
@@ -99,13 +116,13 @@
                     <a href="" class="n_see-all"> See All </a>
                   </div>
 
-                  <div class="n_right-best-seller">
+                  <a href="" class="n_right-best-seller">
                     <div class="ticket-seller">
                       <img src="./assets/images/ticket.svg" alt="ticket" title="Best Seller #1" />
                       <span class="n_title-best-seller">#1 Best Seller</span>
                     </div>
                     <p class="n_seller">In Amazon</p>
-                  </div>
+                  </a>
                 </div>
               </article>
 
@@ -135,23 +152,23 @@
                 </section>
 
                 <!-- if mobile -->
-                 <div class="n_prices-and-coupons-mobile" style="display: none;">
+                <div class="n_prices-and-coupons-mobile" style="display: none">
                   <section class="n_prices">
                     <span class="n_currentprice">$33.29</span>
                     <span class="n_discountprice">$44.99</span>
                     <span class="n_percent-count"> 30% </span>
                   </section>
-  
+
                   <section class="n_coupons">
                     <div class="n_left-checkdeal">
                       <a href="" class="n_check-deal-btn"> Check Deal </a>
-  
+
                       <button class="n_copy-the-coupon">
                         <span class="n_coupon"> Coupon: G3Q8S49T  </span>
                         <img src="./assets/images/copy.svg" class="copy-icon" alt="Copy" title="Copy coupon" />
                       </button>
                     </div>
-  
+
                     <div class="n_right-all-deals">
                       <a href="" class="n_deals-btn">
                         <img src="./assets/images/amazon.svg" alt="amazon" title="All Amazon Deals" />
@@ -159,7 +176,7 @@
                       </a>
                     </div>
                   </section>
-                 </div>
+                </div>
 
                 <section class="n_limited-time-offer">
                   <strong class="n_timeoffertext"> Limited Time Offer: </strong>
@@ -174,7 +191,7 @@
                   <p class="n_text-remaining">Remains until the end of the offer.</p>
                 </section>
                 <!-- if mobile limited time offer -->
-                <section class="n_limited-time-offer-mobile" style="display: none;">
+                <section class="n_limited-time-offer-mobile" style="display: none">
                   <strong class="n_timeoffertext"> Limited Time Offer: </strong>
                   <div class="n_count-time">
                     <div class="n_countdown-content">
@@ -184,7 +201,7 @@
                       <span class="n_dot">:</span>
                       <li class="n_time">02</li>
                     </div>
-  
+
                     <p class="n_text-remaining">Remains until the end of the offer.</p>
                   </div>
                 </section>
@@ -202,7 +219,12 @@
                             <h3 class="n_off-store-title">Momcozy Official Store</h3>
                             <img class="n_danger-icon" src="./assets/images/danger.svg" alt="danger" title="" />
                             <!-- if mobile change this danger to => verify -->
-                            <img style="display: none;" class="n_verified-icon" src="./assets/images/verified.svg" alt="danger" title="" />
+                            <img
+                              style="display: none"
+                              class="n_verified-icon"
+                              src="./assets/images/verified.svg"
+                              alt="danger"
+                              title="" />
                           </div>
                           <div class="n_stars-and-reyting-count">
                             <div class="n_stars-imgs">
@@ -227,7 +249,7 @@
                       <a href="" class="link-save-to-list">Save to List</a>
                     </div>
                     <!-- if mobile check this save-to-list component under -->
-                    <div class="n_right-save-to-list-mobile" style="display: none;">
+                    <div class="n_right-save-to-list-mobile" style="display: none">
                       <img src="./assets/images/like.svg" alt="Save" title="Save to list" />
                       <a href="" class="link-save-to-list">Save to List</a>
                     </div>
@@ -296,41 +318,79 @@
 
                 <div class="n_descriptions">
                   <article class="n_description-item">
-                    <h4 class="n_title-item">High-Quality Design</h4>
-                    <p class="n_description">
-                      The Momcozy Portable Diaper Changing Pad is crafted with premium materials to ensure durability
-                      and comfort for your baby. Its high-quality construction provides a reliable and long-lasting
-                      solution for all your diaper-changing needs.
-                    </p>
-                  </article>
-
-                  <article class="n_description-item">
-                    <h4 class="n_title-item">Perfect Fit for Infants</h4>
-                    <p class="n_description">
-                      Designed specifically for babies aged 0-12 months, this large diaper changing pad offers ample
-                      space for comfortable diaper changes. The innovative design ensures your baby stays secure and
-                      cozy during the process.
-                    </p>
-                  </article>
-
-                  <article class="n_description-item">
-                    <h4 class="n_title-item">Innovative and Waterproof</h4>
-                    <p class="n_description">
-                      Our changing pad features a waterproof foldable design that makes clean-up a breeze. The
-                      waterproof surface ensures that any mess is easily wiped away, maintaining hygiene and
-                      convenience.
+                    <h4 class="n_title-item">Oversized Pillow for Comfort</h4>
+                    <p class="n_description" id="n_description_1">
+                      The built-in oversized pillow provides extra comfort for your baby’s head, making diaper changes
+                      more pleasant. The soft cushioning ensures Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Ut illo cum, delectus quia sed error quo alias accusamus dicta fugiat eius earum iure
+                      voluptatem voluptatibus eaque voluptas rem dolor mollitia, consequuntur itaque. Explicabo eveniet
+                      tenetur qui, illum dolor earum libero ad repellat deleniti dicta odit molestias culpa maxime rerum
+                      odio nisi tempora, adipisci mollitia maiores vel expedita. Ducimus hic molestiae iusto est, modi
+                      maxime laudantium dignissimos incidunt iste enim nam delectus quis, distinctio esse labore vel
+                      odit reprehenderit deleniti doloribus dolore mollitia sapiente dolores? Rerum consequatur corrupti
+                      eius iste. Vero eaque repudiandae dolores adipisci necessitatibus deserunt quam eos ut natus.
+                      <button class="n_read-more" id="read_more_btn_1">
+                        <span>Read More</span>
+                        <img src="./assets/images/r.svg" alt="readmore" title="Read more" />
+                      </button>
                     </p>
                   </article>
 
                   <article class="n_description-item">
                     <h4 class="n_title-item">Oversized Pillow for Comfort</h4>
-                    <p class="n_description">
+                    <p class="n_description" id="n_description_2">
                       The built-in oversized pillow provides extra comfort for your baby’s head, making diaper changes
-                      more pleasant. The soft cushioning ensures...
-                      <a href="" class="n_read-more">
+                      more pleasant. The soft cushioning ensures Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Modi ad maxime vel dolore tenetur necessitatibus hic quam est, in quidem molestias obcaecati
+                      officiis exercitationem debitis excepturi praesentium corporis amet nam sapiente eligendi expedita
+                      minus velit cumque. Officiis blanditiis saepe quia, eaque aliquid, consequuntur placeat ullam
+                      optio, quas libero assumenda doloremque iste? Id iusto placeat adipisci eos, eveniet facilis
+                      corrupti officia? Illum obcaecati voluptatibus, assumenda ea, iure repellendus alias atque aut
+                      debitis saepe consectetur quisquam velit? Possimus libero fugit laboriosam nam, ipsum quae
+                      adipisci nesciunt. Dolorem quo laborum eum ratione maxime tenetur libero? Quibusdam, molestiae?
+                      Nulla dolorum placeat quia cupiditate maiores.
+                      <button class="n_read-more" id="read_more_btn_2">
                         <span>Read More</span>
                         <img src="./assets/images/r.svg" alt="readmore" title="Read more" />
-                      </a>
+                      </button>
+                    </p>
+                  </article>
+                  <article class="n_description-item">
+                    <h4 class="n_title-item">Oversized Pillow for Comfort</h4>
+                    <p class="n_description" id="n_description_3">
+                      The built-in oversized pillow provides extra comfort for your baby’s head, making diaper changes
+                      more pleasant. The soft cushioning ensures Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Modi ad maxime vel dolore tenetur necessitatibus hic quam est, in quidem molestias obcaecati
+                      officiis exercitationem debitis excepturi praesentium corporis amet nam sapiente eligendi expedita
+                      minus velit cumque. Officiis blanditiis saepe quia, eaque aliquid, consequuntur placeat ullam
+                      optio, quas libero assumenda doloremque iste? Id iusto placeat adipisci eos, eveniet facilis
+                      corrupti officia? Illum obcaecati voluptatibus, assumenda ea, iure repellendus alias atque aut
+                      debitis saepe consectetur quisquam velit? Possimus libero fugit laboriosam nam, ipsum quae
+                      adipisci nesciunt. Dolorem quo laborum eum ratione maxime tenetur libero? Quibusdam, molestiae?
+                      Nulla dolorum placeat quia cupiditate maiores.
+                      <button class="n_read-more" id="read_more_btn_3">
+                        <span>Read More</span>
+                        <img src="./assets/images/r.svg" alt="readmore" title="Read more" />
+                      </button>
+                    </p>
+                  </article>
+                  <article class="n_description-item">
+                    <h4 class="n_title-item">Oversized Pillow for Comfort</h4>
+                    <p class="n_description" id="n_description_4">
+                      The built-in oversized pillow provides extra comfort for your baby’s head, making diaper changes
+                      more pleasant. The soft cushioning ensures Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Modi ad maxime vel dolore tenetur necessitatibus hic quam est, in quidem molestias obcaecati
+                      officiis exercitationem debitis excepturi praesentium corporis amet nam sapiente eligendi expedita
+                      minus velit cumque. Officiis blanditiis saepe quia, eaque aliquid, consequuntur placeat ullam
+                      optio, quas libero assumenda doloremque iste? Id iusto placeat adipisci eos, eveniet facilis
+                      corrupti officia? Illum obcaecati voluptatibus, assumenda ea, iure repellendus alias atque aut
+                      debitis saepe consectetur quisquam velit? Possimus libero fugit laboriosam nam, ipsum quae
+                      adipisci nesciunt. Dolorem quo laborum eum ratione maxime tenetur libero? Quibusdam, molestiae?
+                      Nulla dolorum placeat quia cupiditate maiores.
+                      <button class="n_read-more" id="read_more_btn_4">
+                        <span>Read More</span>
+                        <img src="./assets/images/r.svg" alt="readmore" title="Read more" />
+                      </button>
                     </p>
                   </article>
                 </div>
@@ -426,39 +486,38 @@
                   </section>
 
                   <!-- for mobile ratings container -->
-                  <section class="n_ratings-container-for-mobile" style="display: none;">
+                  <section class="n_ratings-container-for-mobile" style="display: none">
                     <div class="n_top">
                       <div class="n_item_first_top">
                         <div class="n_item-top">
                           <h5 class="n_item-title">Total Reviews</h5>
-  
-                        <article class="n_countandtext">
-                          <h2 class="n_count">1000</h2>
-                          <p class="n_text">Only In Test Market</p>
-                        </article>
+
+                          <article class="n_countandtext">
+                            <h2 class="n_count">1000</h2>
+                            <p class="n_text">Only In Test Market</p>
+                          </article>
                         </div>
                       </div>
-  
+
                       <div class="n_item_first_top">
                         <div class="n_item-top">
                           <h5 class="n_item-title">Average Rating</h5>
-  
-                        <article class="n_countandtext">
-                          <div class="n_count-and-stars">
-                            <h2 class="n_count">4.9</h2>
-                            <div class="n_stars-count">
-                              <img src="./assets/images/starfill.svg" alt="" />
-                              <img src="./assets/images/starfill.svg" alt="" />
-                              <img src="./assets/images/starfill.svg" alt="" />
-                              <img src="./assets/images/starfill.svg" alt="" />
-                              <img src="./assets/images/starfill.svg" alt="" />
+
+                          <article class="n_countandtext">
+                            <div class="n_count-and-stars">
+                              <h2 class="n_count">4.9</h2>
+                              <div class="n_stars-count">
+                                <img src="./assets/images/starfill.svg" alt="" />
+                                <img src="./assets/images/starfill.svg" alt="" />
+                                <img src="./assets/images/starfill.svg" alt="" />
+                                <img src="./assets/images/starfill.svg" alt="" />
+                                <img src="./assets/images/starfill.svg" alt="" />
+                              </div>
                             </div>
-                          </div>
-                          <p class="n_text">Average rating on this year</p>
-                        </article>
+                            <p class="n_text">Average rating on this year</p>
+                          </article>
                         </div>
                       </div>
-  
                     </div>
                     <div class="n_item_first_bottom">
                       <div class="n_stars-rating-calculate">
@@ -512,7 +571,6 @@
                       </div>
                     </div>
                   </section>
-
 
                   <section class="n_comments-container">
                     <article class="n_comment-item n_recommended">
@@ -849,13 +907,13 @@
                   </div>
 
                   <div class="n_add-to-card-area">
-                    <div class="n_right-best-seller">
+                    <a href="" class="n_right-best-seller">
                       <div class="ticket-seller">
                         <img src="./assets/images/ticket.svg" alt="ticket" title="Best Seller #1" />
                         <span class="n_title-best-seller">#1 Best Seller</span>
                       </div>
                       <p class="n_seller">In Amazon</p>
-                    </div>
+                    </a>
                     <a href="" class="n_addtocard">
                       <span>Add to cart</span>
                       <img src="./assets/images/plus.svg" alt="add" title="Add to card" />
@@ -1168,6 +1226,37 @@
               header.querySelector("img").src = "./assets/images/closeaccord.svg";
             }
           });
+        });
+      });
+
+      // READ MORE FUNCTION
+      document.addEventListener("DOMContentLoaded", () => {
+        const descriptions = document.querySelectorAll(".n_description");
+        const collapsedHeight = 60; // collapsed height
+
+        descriptions.forEach((description) => {
+          const readMoreButton = description.querySelector(".n_read-more"); // find the button within the current description
+
+          if (description && readMoreButton) {
+            // Set the initial collapsed height
+            description.style.maxHeight = collapsedHeight + "px";
+
+            readMoreButton.classList.add("readMoreAdded");
+
+            readMoreButton.addEventListener("click", () => {
+              const isExpanded = description.classList.toggle("expand");
+
+              if (isExpanded) {
+                description.style.maxHeight = description.scrollHeight + "px";
+                readMoreButton.classList.remove("readMoreAdded");
+                readMoreButton.querySelector("span").textContent = "Read Less";
+              } else {
+                description.style.maxHeight = collapsedHeight + "px";
+                readMoreButton.classList.add("readMoreAdded");
+                readMoreButton.querySelector("span").textContent = "Read More";
+              }
+            });
+          }
         });
       });
     </script>

@@ -572,4 +572,3 @@ document.getElementById("close_filter_icon").addEventListener("click", () => {
   document.querySelector(".sidebar").classList.remove("open");
   document.querySelector(".sidebar-overlay").classList.remove("open");
 });
-
